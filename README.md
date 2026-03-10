@@ -36,3 +36,16 @@ includo/
 ├── package-lock.json       # Version locking for dependencies
 └── tsconfig.json           # TypeScript compiler configuration
 ```
+
+## Getting Started
+
+To compile the project and see the system in action, follow these steps:
+
+### Install dependencies:
+    npm install
+
+### Compile TypeScript:
+    npx tsc (This will generate the dist/ folder based on tsconfig.json settings)
+
+### Run the simulation:
+    node dist/index.js
