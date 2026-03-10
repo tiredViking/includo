@@ -45,7 +45,7 @@ To compile the project and see the system in action, follow these steps:
     npm install
 
 ### Compile TypeScript:
-    npx tsc (This will generate the dist/ folder based on tsconfig.json settings)
+    npx tsc #This will generate the dist/ folder based on tsconfig.json settings
 
 ### Run the simulation:
     node dist/index.js
