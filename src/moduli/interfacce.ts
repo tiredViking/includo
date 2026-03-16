@@ -18,7 +18,9 @@ export interface IPartecipante {
 	livelloDiIstruzione: string;
 	lingue: string[]; // competenze linguistiche
 	ambito: string; // ambito di formazione di interesse 
+}
 
+export interface IIscrivibile extends IPartecipante {
 	iscrivitiCorso(corso: ICorso): void;
 }
 
@@ -29,4 +31,10 @@ export interface IAzienda {
 	posizioniAperte: string[];
 	
 	offriPosizione(partecipante: IPartecipante, posizione: string): void;
+}
+
+export interface ILogger {
+	log(message: string): void;
+	warn(message: string): void;
+	error(message: string): void;
 }
