@@ -5,8 +5,8 @@ import { Corso } from "./moduli/classi/Corso.js";
 import { logger } from "./moduli/classi/logger.js";
 
 // Partecipanti
-const studente1 = new PartecipanteIscrivibile("Pedro", "Sanchez", "Spagna", "Diploma", ["Inglese, Spagnolo"], "Logistica");
-const studente2 = new PartecipanteIscrivibile("Omar", "Saif", "Marocco", "Laurea", ["Francese, Arabo"], "Finanza");
+const studente1 = new PartecipanteIscrivibile("Pedro", "Sanchez", "Spagna", "Diploma", ["Inglese", "Spagnolo"], "Logistica");
+const studente2 = new PartecipanteIscrivibile("Omar", "Saif", "Marocco", "Laurea", ["Francese", "Arabo"], "Finanza");
 const studente3 = new PartecipanteIscrivibile("Amina", "Toure", "Senegal", "Diploma", ["Francese", "Wolof"], "Ristorazione");
 
 // Corsi

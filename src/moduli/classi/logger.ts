@@ -3,15 +3,15 @@ import type { ILogger } from '../interfacce.js'
 class Logger implements ILogger {
 	
 	log(message: string): void {
-		console.log(`${message}`);
+		console.log(message);
 	}
 
 	warn(message: string): void {
-		console.warn(`${message}`);
+		console.warn(message);
 	}
 
 	error(message: string): void {
-		console.error(`${message}`)
+		console.error(message)
 	}
 }
 
